@@ -5,7 +5,6 @@
 #include "c_api_test_utils.h"
 #include "taichi/cpp/taichi.hpp"
 #include "c_api/tests/gtest_fixture.h"
-#define AOT_MODULE_PATH "./c_api/aot_test_module/mpm88.cgraph.tcm"
 
 TEST_F(CapiTest, TestBehaviorCreateRuntime) {
   auto inner = [this](TiArch arch) {
